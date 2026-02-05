@@ -54,7 +54,7 @@ function IntroScreen({ onDone }: { onDone: () => void }) {
 
   return (
     <div
-      className="fixed inset-0 flex flex-col items-center justify-center bg-gradient-to-b from-rose-200 via-pink-300 to-rose-400"
+      className="fixed inset-0 flex flex-col items-center justify-center bg-gradient-to-b from-rose-100 via-pink-200 to-rose-300"
       onClick={() => {
         if (!canContinue) return;
         ensureMusicPlaying(); // unlocks audio if needed
